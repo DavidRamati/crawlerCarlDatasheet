@@ -4,7 +4,7 @@ The datasheet will let you easily track Carl's and his party's stats, items, ski
 
 NOTE: The datasheet is spoiler protected. it has a chapter selection and will show the state of Carl's party at the beginning of the selected chapter.
 
-© All rights of Dungeon Crawler Carl's books and world are reserved to the Author : Matt Dinniman
+Ⓒ All rights of Dungeon Crawler Carl's books and world are reserved to the Author : Matt Dinniman
 This Repo does not provide the books or audio books.
 Please buy the books / audio books legally while using this datasheet.
-All graphics in the datasheet are AI generated and arenot protected 
+All graphics in the datasheet are AI generated and are free to use according to copyright laws.
