@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 8,
+  "notes": "Carl and Donut leave the guild (Mordecai now his registered guide until Floor 4) and crawl east through Floor 1. Donut ambush-zaps a Level-3 Bad Llama with Magic Missile; Carl finishes it bare-handed, breaking then quickly regenerating his hand, and loots llama meat and meth. They grind through rats and Scatterer roaches — Carl killing everything with his bare feet — reaching Level 3 and learning Foot Soldier and Smush. Exhausted (Fatigued), they finally reach a safe room.",
+  "set": {
+    "level": 3,
+    "location": "World Dungeon — Floor 1 (eastern tunnels, reaching a safe room)",
+    "scene": "scene-floor1-tunnels",
+    "misc": { "undistributedStatPoints": 6 }
+  },
+  "inventory": {
+    "add": [
+      { "id": "llama-steak", "name": "Uncooked Llama Steak", "rarity": "common", "qty": 1, "description": "Raw meat looted from the Bad Llama; added a Food Items menu to Carl's inventory." },
+      { "id": "meth-baggie", "name": "Baggie of Trailer-Park-Grade Meth", "rarity": "common", "qty": 2, "description": "Looted from the Bad Llama; added a Pharmaceuticals menu to Carl's inventory." },
+      { "id": "rat-pelt", "name": "Rat Pelt", "rarity": "common", "description": "Pelts dropped by the Level-2 rat mobs (multiple collected)." },
+      { "id": "scatterer-carapace", "name": "Scatterer Carapace", "rarity": "common", "qty": 1, "description": "Dropped by a Scatterer (giant cockroach); added itself to Carl's Crafting Items menu." }
+    ]
+  },
+  "skills": {
+    "add": [
+      { "id": "foot-soldier", "name": "Foot Soldier", "description": "Increases the damage Carl deals by kicking. Gained at Level 3." },
+      { "id": "smush", "name": "Smush", "level": 3, "description": "Killing with your bare feet by pressing down until life ceases. The unshod-foot pressure you can bring to bear is increased by 10% per level. Gained at Level 3." }
+    ]
+  },
+  "effects": {
+    "add": [
+      { "id": "fatigued", "name": "Fatigued", "kind": "debuff", "description": "A tiredness condition shown in the health menu; not cured by Regeneration — Carl needs to rest in a safe area." }
+    ]
+  },
+  "achievements": {
+    "add": [
+      { "id": "looted-corpse", "name": "Looted a Corpse", "reward": "You've received a Bronze Adventurer Box!", "description": "Looted the Bad Llama's corpse for the first time." },
+      { "id": "shared-experience", "name": "Shared Experience", "reward": "You've received a Bronze Adventurer Box!", "description": "Shared experience with a party member (Donut) after a kill." }
+    ]
+  },
+  "contacts": {
+    "update": [
+      { "id": "mordecai", "note": "Now Carl's registered guide: re-entering any training guild returns him to Mordecai's room for questions. Carl will lose access to him once he reaches Floor 4. Parting warning: 'It's not worth it, no matter what they tell you. Not until floor 12, and even then, negotiate as much as you can.'" }
+    ]
+  },
+  "sources": [
+    { "field": "level", "quote": "I hit level three and gained a skill called Foot Soldier, and a second one called Smush." },
+    { "field": "skills.smush", "quote": "Smush: Skill Level 3 ... Taking your bare foot, placing it on top of a living, conscious life, and then pressing lovingly down ... increased by 10% with each level of this skill." },
+    { "field": "inventory", "quote": "Poor Llama skin. Uncooked Llama steaks X2. Baggie of trailer park-grade meth X2. ... I added the rest of the items to my inventory. My inventory added two new menus: Food Items and Pharmaceuticals." },
+    { "field": "effects.fatigued", "quote": "In my health menu it listed me as Fatigued. It didn’t cure itself with my regeneration. We had to find one of the rest areas." },
+    { "field": "contacts", "quote": "“I’m now your registered guide, so feel free to come back here if you have any additional questions. You’ll lose access to me once you hit the fourth floor.”" }
+  ]
+}

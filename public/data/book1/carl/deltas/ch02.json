@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 2,
+  "notes": "Carl descends the entrance staircase into Floor 1. The system designates him Crawler #4,122 'Carl', race Human, Level 1 (he may re-pick race/class on Floor 3). A wall of entry achievements grants loot boxes he can't yet open. Both his pink Crocs fly off as he flees a goblin Murder Dozer; he kills a club-wielding goblin with his bare hands, reads the real Tutorial Guild sign, and talks his way inside past the guildmaster Mordecai.",
+  "set": {
+    "level": 1,
+    "floor": 1,
+    "location": "World Dungeon — Floor 1 (entrance tunnels, near the Tutorial Guild)",
+    "scene": "scene-floor1-tunnels",
+    "identity": { "race": "Human" },
+    "appearance": { "stateId": "carl-02-barefoot" },
+    "equipment": { "feet": null },
+    "misc": { "crawlerId": 4122 }
+  },
+  "achievements": {
+    "add": [
+      { "id": "crazy-cat-lady", "name": "Crazy Cat Lady", "reward": "You've received a Bronze Pet Box!", "description": "Entered the World Dungeon accompanied by a cat." },
+      { "id": "trailblazing-crazy-cat-lady", "name": "Trailblazing Crazy Cat Lady", "reward": "You've received a Legendary Pet Box!", "description": "First crawler ever to enter the World Dungeon accompanied by a cat." },
+      { "id": "early-adopter", "name": "Early Adopter", "reward": "You've received a Silver Adventurer Box!", "description": "One of the first 5,000 crawlers to enter a new World Dungeon." },
+      { "id": "empty-pockets", "name": "Empty Pockets", "reward": "You've received a Bronze Adventurer Box!", "description": "Entered the dungeon without bringing any supplies." },
+      { "id": "why-arent-you-wearing-pants", "name": "Why Aren't You Wearing Pants?", "reward": "You've received a Gold Apparel Box!", "description": "Entered the dungeon wearing no pants." },
+      { "id": "unarmed-combat-achievement", "name": "Unarmed Combat", "reward": "You've received a Bronze Weapon Box!", "description": "Entered the dungeon without bringing a weapon." },
+      { "id": "loner", "name": "Loner", "reward": "None.", "description": "Entered the dungeon without any human companions." },
+      { "id": "fall-into-obvious-trap", "name": "Fall Into an Obvious Trap", "reward": "None.", "description": "Walked into an obvious trap — the goblin Murder Dozer ambush down the 'Da Tutorial Guild' alley." },
+      { "id": "read-dungeon-sign", "name": "Discovered and Read an Official Dungeon Sign", "reward": "All official dungeon signage is now highlighted and easier to spot; nearby guilds appear on your minimap.", "description": "Read the genuine 'Tutorial Guild' sign painted on the wall." },
+      { "id": "inflicted-damage", "name": "You've Inflicted Damage on a Mob", "reward": "None.", "description": "First damage dealt to a mob (a goblin at the guild door)." },
+      { "id": "killed-a-mob", "name": "You've Killed a Mob!", "reward": "You can now gain experience.", "description": "First mob kill." },
+      { "id": "killed-armed-mob-bare-hands", "name": "You've Killed an Armed Mob With Your Bare Hands!", "reward": "You've received a Bronze Weapon Box!", "description": "Beat a club-wielding goblin unconscious with his fists, then smashed its head against the stones." },
+      { "id": "entered-guildhall", "name": "You've Entered a Guildhall!", "reward": "None.", "description": "Entered the Tutorial Guild hall." }
+    ]
+  },
+  "contacts": {
+    "add": [
+      { "id": "mordecai", "name": "Mordecai", "relation": "Tutorial guildmaster / guide (NPC)", "note": "Rat Hooligan, Level 50. A Non-Combatant NPC and former crawler (reached Floor 11). Runs this tutorial guildhall and, reluctantly, lets Carl in to escape the goblins." }
+    ],
+    "update": [
+      { "id": "donut", "relation": "Party member (Crawler #4,119)", "note": "Designated Crawler #4,119 'Princess Donut', Level 1, Race: Cat, Class: not yet assigned. Auto-grouped with Carl into a party of two on entering the dungeon; she can see the game HUD too." }
+    ]
+  },
+  "sources": [
+    { "field": "identity.race", "quote": "You have been designated Crawler Number 4,122. You have been assigned the Crawler Name “Carl.” You are assigned the race of Human. You are currently level 1. You may choose a new race and class as soon as you descend to the third floor." },
+    { "field": "achievements", "quote": "Congratulations! You’ve earned your first achievement: Crazy Cat Lady. ... Reward: You’ve received a Bronze Pet Box! ... Reward: You’ve received a Legendary Pet Box! ... Reward: You’ve received a Silver Adventurer Box! ... Reward: You’ve received a Bronze Adventurer Box! ... Reward: You’ve received a Gold Apparel Box! ... Reward: You’ve received a Bronze Weapon Box! ... Reward: None! Haha. You are so dead." },
+    { "field": "equipment.feet", "quote": "Both of my pink Crocs went flying as I turned down the main tunnel, heading away from where I’d come down the stairs." },
+    { "field": "contacts", "quote": "“Nobody tells old Mordecai anything!” ... Mordecai – Rat Hooligan. Level 50. Guildmaster of this guildhall. This is a Non-Combatant NPC." },
+    { "field": "contacts", "quote": "Crawler #4,119. “Princess Donut.” Level 1. Race: Cat. Class: Not yet assigned." }
+  ]
+}

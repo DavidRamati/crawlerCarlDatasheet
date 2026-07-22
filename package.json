@@ -1,0 +1,32 @@
+{
+  "name": "crawler-carl-statsheet",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "validate": "tsx tools/validate.ts",
+    "extract:delta": "tsx tools/extract_deltas.ts",
+    "artgen:ref": "tsx tools/artgen/gen_characters.ts --ref-only",
+    "artgen:characters": "tsx tools/artgen/gen_characters.ts",
+    "artgen:items": "tsx tools/artgen/gen_items.ts",
+    "artgen:backgrounds": "tsx tools/artgen/gen_backgrounds.ts",
+    "artgen:prompts": "tsx tools/artgen/print_prompts.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0"
+  }
+}

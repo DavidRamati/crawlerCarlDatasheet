@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 6,
+  "notes": "Still waiting on Donut's transformation, Carl equips his new loot: fingerless gloves, the Enchanted Trollskin Shirt of Pummeling (worn under his leather jacket), the Enchanted Nightgaunt Cloak of Stoutness, and the Enchanted Toe Ring of the Splatter Skunk. His Constitution rises 5→9 (cloak) and Strength 6→9 (toe ring), and he gains the Powerful Strike and Regeneration skills. He's still in boxers with no pants or shoes — now 'a dollar-store Batman.' A pile-of-goo Donut is about to speak.",
+  "set": {
+    "appearance": { "stateId": "carl-03-cloak" },
+    "equipment": {
+      "hands": { "id": "common-fingerless-gloves", "name": "Common Fingerless Gloves", "rarity": "common", "description": "Plain fingerless gloves that offer no armor protection." },
+      "body": { "id": "trollskin-shirt", "name": "Enchanted Trollskin Shirt of Pummeling", "rarity": "epic", "effects": "+7 to the Regeneration skill; negates all melee-based damage debuffs (Stun, Knockback, Disarm, Out-of-Breath).", "description": "One of the best under-armor tanking garments; cool to the touch and form-fitting. Worn under Carl's leather jacket.", "grants": [{ "skill": "regeneration", "name": "Regeneration", "level": 7 }] },
+      "accessory": { "id": "nightgaunt-cloak", "name": "Enchanted Nightgaunt Cloak of Stoutness", "rarity": "rare", "effects": "+4 Constitution; resistant to poison and ice-based attacks; adds Anti-Piercing resistance to all worn armor.", "description": "A near-weightless hooded cloak of demon wing over fingerbones; makes the wearer look like a dollar-store Batman.", "statBonuses": { "constitution": 4 } },
+      "feet": { "id": "toe-ring", "name": "Enchanted Toe Ring of the Splatter Skunk", "rarity": "uncommon", "effects": "+3 Strength; +3 to the Powerful Strike skill.", "description": "A toe ring worn on Carl's otherwise-bare right foot.", "statBonuses": { "strength": 3 }, "grants": [{ "skill": "powerful-strike", "name": "Powerful Strike", "level": 3 }] }
+    }
+  },
+  "inventory": {
+    "add": [
+      { "id": "potion-healing", "name": "Potion of Healing", "qty": 2 },
+      { "id": "torch", "name": "Torch", "qty": 1 }
+    ],
+    "remove": ["common-fingerless-gloves", "trollskin-shirt", "nightgaunt-cloak", "toe-ring"]
+  },
+  "skills": {
+    "add": [
+      { "id": "frogger", "name": "Frogger — 1981 Video Game Cabinet Version", "level": 8, "description": "A high skill Carl already had from a childhood spent on his dad's arcade cabinet; hidden by dungeon-relevance filters." }
+    ]
+  },
+  "effects": {
+    "add": [
+      { "id": "nightgaunt-stoutness", "name": "Nightgaunt Stoutness", "kind": "buff", "description": "From the Nightgaunt Cloak: resistance to poison and ice-based attacks, plus Anti-Piercing resistance added to all worn armor." },
+      { "id": "trollskin-pummeling", "name": "Pummeling (Melee Debuff Immunity)", "kind": "buff", "description": "From the Trollskin Shirt: negates all melee-based damage debuffs including Stun, Knockback, Disarm and Out-of-Breath." }
+    ]
+  },
+  "achievements": {
+    "add": [
+      { "id": "loot", "name": "Loot!", "reward": "None. (You're now a handsome son of a bitch.)", "description": "Wore something found in the dungeon for the first time." },
+      { "id": "oooh-magic", "name": "Oooh, Magic!", "reward": "You've received a Bronze Adventurer Box!", "description": "Wore magical gear for the first time." },
+      { "id": "jewelry-achievement", "name": "(Unnamed jewelry achievement)", "reward": "None.", "description": "A snarky achievement for putting on jewelry (the toe ring); the exact name is not shown in the text." }
+    ]
+  },
+  "sources": [
+    { "field": "stats.constitution", "quote": "I felt a quick rush of power course through me as my constitution rose from five to nine." },
+    { "field": "stats.strength", "quote": "Imbues wearer with +3 Strength and gives +3 to the skill Powerful Strike. ... I felt my strength rise by 50%." },
+    { "field": "equipment", "quote": "The fingerless gloves went onto my hands. ... I pulled off my jacket and slipped the short-sleeved shirt on. ... I put the leather jacket back on and then added the cloak." },
+    { "field": "skills.regeneration", "quote": "The wearer of this shirt gains +7 to the Regeneration skill. ... A level-seven regeneration skill means you’re back to full health pretty quickly after taking damage. In as little as two minutes." },
+    { "field": "inventory", "quote": "The box contained another torch and a pair of healing potions, leaving me with a total of six." },
+    { "field": "achievements", "quote": "New achievement! Oooh, Magic! You’re wearing magical gear for the first time! ... Reward: You’ve received a Bronze Adventurer Box!" }
+  ]
+}

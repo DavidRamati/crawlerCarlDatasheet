@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 1,
+  "notes": "At 2:23 AM the Syndicate seizes Earth: every interior is crushed and nearly everyone indoors dies instantly. Carl, caught outside in boxers, a leather jacket and pink Crocs while retrieving Donut, survives. A neutral observer AI announces the 18-Level World Dungeon; 150,000 glowing Floor-1 entrances appear worldwide and stay open for one hour. Freezing, Carl runs toward the nearest entrance.",
+  "set": {
+    "location": "Ruins of surface Seattle, running toward a glowing World Dungeon entrance",
+    "scene": "scene-seattle-ruins"
+  },
+  "sources": [
+    {
+      "field": "location",
+      "quote": "The building smashed down to the ground. I watched it happen. ... All that remained of my building was a rectangle of churned dirt and rocks."
+    },
+    {
+      "field": "notes",
+      "quote": "The Borant Corporation, having been assigned regency over this solar system, is allowed to choose the manner of this reclamation, and they have chosen option 3, also known as the 18-Level World Dungeon."
+    },
+    {
+      "field": "notes",
+      "quote": "There will be 150,000 level-one entrances added to the world. ... The first-level entrances will be open for exactly one human hour and one hour only. ... So I turned toward the light, and I ran."
+    }
+  ]
+}

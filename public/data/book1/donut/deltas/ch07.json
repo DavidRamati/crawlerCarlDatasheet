@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 7,
+  "notes": "Donut emerges from the blob still a cat but now sapient and talking, with drastically rebuilt stats from an Enhanced Growth buff (Str 11, Int 11, Con 2, Dex 8, Cha 25). Mordecai reclassifies her from pet to full crawler and activates her menus. She opens her boxes — including a Legendary Quadruped Box for being the first cat in the dungeon — learns Magic Missile from a Tome, and equips the Enchanted Crown of the Sepsis Whore. She becomes the party leader, names the party The Royal Court of Princess Donut, and takes the title Grand Champion Best in Dungeon. New look: the same fluffy tortoiseshell Persian now wearing a cat-sized jeweled purple tiara.",
+  "set": {
+    "identity": { "title": "Grand Champion Best in Dungeon" },
+    "stats": {
+      "strength": 11,
+      "intelligence": 11,
+      "constitution": 2,
+      "dexterity": 8,
+      "charisma": 25
+    },
+    "resources": { "mana": { "cur": 16, "max": 16 } },
+    "equipment": {
+      "head": {
+        "id": "crown-sepsis-whore",
+        "name": "Enchanted Crown of the Sepsis Whore",
+        "rarity": "legendary",
+        "effects": "+5 Intelligence; +5 to the Good First Impression skill; all attacks (including magical) have a 15% chance to inflict the Sepsis debuff.",
+        "description": "A cat-sized jeweled tiara set with smoky dark gems and a swirling, liquid deep-purple center stone. Fleeting (crumbles to dust the moment it is removed, then respawns elsewhere in the dungeon) and Unique*. Wearing it permanently places the wearer in the royal line of succession for the Blood Sultanate on floor 9 — royals must slay the Sultan and all other royals before they may descend to floor 10, and removing the crown does not remove this status.",
+        "statBonuses": { "intelligence": 5 },
+        "grants": [{ "skill": "good-first-impression", "name": "Good First Impression", "level": 5 }]
+      }
+    },
+    "appearance": { "stateId": "donut-03-tiara" },
+    "misc": {
+      "crawlerId": 4119,
+      "showName": "GC, BWR, NW Princess Donut the Queen Anne Chonk",
+      "partyName": "The Royal Court of Princess Donut",
+      "partyLeader": true
+    }
+  },
+  "skills": {
+    "add": [
+      {
+        "id": "magic-missile",
+        "name": "Magic Missile",
+        "level": 1,
+        "description": "Offensive spell learned permanently from a Tome of Magic Missile; fires bolts of force from her eyes. Each cast costs 5 mana."
+      }
+    ]
+  },
+  "effects": {
+    "remove": ["transforming"],
+    "add": [
+      {
+        "id": "enhanced-growth",
+        "name": "Enhanced Growth",
+        "kind": "buff",
+        "description": "After an initial boost to four random stats, every level automatically grants +1 Strength, +1 Intelligence and +2 Charisma. Stat points disburse on level-up without needing a class, so she gains 4 per level instead of 3. Downside: her Constitution (2) and Dexterity (8) are locked unless changed by gear or a chosen race/class. (Her original stats were 1/1/1 with Dexterity 8 and Charisma 5.)"
+      },
+      {
+        "id": "blood-sultanate-succession",
+        "name": "Blood Sultanate Line of Succession",
+        "kind": "debuff",
+        "description": "Consequence of donning the Enchanted Crown of the Sepsis Whore: she is permanently in the royal line of succession for the Blood Sultanate on floor 9. She must slay the Sultan and all other royals before descending to floor 10; taking the crown off does not remove this status."
+      }
+    ]
+  },
+  "achievements": {
+    "add": [
+      {
+        "id": "first-cat",
+        "name": "First Cat in the Dungeon",
+        "reward": "Legendary Quadruped Box",
+        "description": "Awarded to Donut for being the first cat to enter the World Dungeon."
+      }
+    ]
+  },
+  "inventory": {
+    "add": [
+      {
+        "id": "potion-healing",
+        "name": "Potion of Healing",
+        "rarity": "common",
+        "description": "Standard healing potion; increases health by at least 50%. Does not cure poison or other health-seeping conditions."
+      },
+      {
+        "id": "torch",
+        "name": "Torch",
+        "rarity": "common",
+        "description": "Basic light source received in bulk from bronze/adventurer boxes."
+      },
+      {
+        "id": "pet-biscuit",
+        "name": "Pet Biscuit",
+        "rarity": "common",
+        "description": "Feeds a pet-based class for a full day; pets find them delicious."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "field": "stats",
+      "quote": "Strength: 11 / Intelligence: 11 / Constitution: 2 / Dexterity: 8 / Charisma: 25"
+    },
+    {
+      "field": "effects",
+      "quote": "'Her stats were all one. All except dexterity, which was always eight and charisma which was five. Whatever buff you gave her kept her race but changed her stats.' … Enhanced Growth. After an initial boost to four random stats, all additional levels will automatically grant +1 to Strength and Intelligence. Charisma will gain +2 per level. No additional stat points will be received upon level-up."
+    },
+    {
+      "field": "equipment",
+      "quote": "A small, jeweled tiara. The cat-sized crown glittered with smoky, dark gems. The deep purple stone in the center swirled internally with clouds… Enchanted Crown of the Sepsis Whore. … Imbues wearer with +5 Intelligence, grants the user +5 to the Good First Impression skill. All attacks, including magical attacks, now have a 15% chance to inflict the Sepsis debuff."
+    },
+    {
+      "field": "effects",
+      "quote": "Placing this crown upon your head permanently places you within the royal line of succession for the Blood Sultanate on the ninth floor of the world dungeon. … Royal members of the Blood Sultanate will be required to slay the Sultan and all other members of the royal family before descending to the tenth floor."
+    },
+    {
+      "field": "skills",
+      "quote": "'Ah, Princess Donut, I see you taught yourself the Magic Missile spell already. That's good, good. In case you didn't know, tomes will permanently teach you the spell…' … Tome of Magic Missile"
+    },
+    {
+      "field": "identity",
+      "quote": "Princess Donut has changed her title to Grand Champion Best in Dungeon."
+    },
+    {
+      "field": "misc",
+      "quote": "'First off, Carl, my name is \"GC, BWR, NW Princess Donut the Queen Anne Chonk\"…' … Princess Donut has named your party The Royal Court of Princess Donut. … 'She has the highest combined stat total, so she's the designated party leader.'"
+    },
+    {
+      "field": "achievements",
+      "quote": "'She received a Legendary Quadruped box for being the first cat to enter the dungeon.'"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 3,
+  "identity": {
+    "name": "Princess Donut",
+    "race": "Cat",
+    "class": null,
+    "title": null
+  },
+  "level": 1,
+  "floor": 1,
+  "location": "Tutorial Guild Hall (Floor 1)",
+  "stats": {
+    "strength": null,
+    "constitution": null,
+    "dexterity": null,
+    "intelligence": null,
+    "charisma": null
+  },
+  "resources": {
+    "hp": { "cur": null, "max": null },
+    "mana": { "cur": null, "max": null }
+  },
+  "equipment": {
+    "head": null,
+    "body": null,
+    "hands": null,
+    "feet": null,
+    "weapon": null,
+    "offhand": null,
+    "accessory": null
+  },
+  "inventory": [],
+  "skills": [],
+  "effects": [],
+  "achievements": [],
+  "contacts": [
+    {
+      "id": "carl",
+      "name": "Carl",
+      "relation": "Party",
+      "note": "Her owner and fellow crawler; they entered the dungeon together and were auto-grouped into a party of two. Crawler #4,122."
+    },
+    {
+      "id": "mordecai",
+      "name": "Mordecai",
+      "relation": "Guide",
+      "note": "Rat Hooligan guildmaster of the tutorial guild (Level 50 Non-Combatant NPC); a former crawler now acting as their guide."
+    }
+  ],
+  "appearance": {
+    "stateId": "donut-01-cat"
+  },
+  "misc": {
+    "crawlerId": 4119
+  }
+}

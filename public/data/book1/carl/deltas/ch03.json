@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 3,
+  "notes": "From the safe guildhall Carl goes back out and finishes off the goblins: he throws one into the Murder Dozer's spinning blades and stomps the Level-3 Goblin Engineer to death with his bare feet, then dives back inside as the dozer's boiler breaches and explodes. The blast is redirected at him but the star-destroyer-grade guild door holds. These fights push him to Level 2 and raise Pugilism to 4. Mordecai gives Carl the quick history of the Syndicate, Borant Corporation and the World Dungeon 'game show'.",
+  "set": {
+    "level": 2,
+    "location": "World Dungeon — Floor 1 (Tutorial Guild Hall — a Safe Zone)",
+    "scene": "scene-guild-hall",
+    "misc": { "undistributedStatPoints": 3 }
+  },
+  "skills": {
+    "add": [
+      { "id": "pugilism", "name": "Pugilism", "level": 4, "description": "The art of beating the shit out of opponents with closed fists. Each level increases bare-knuckle damage by 25%." }
+    ]
+  },
+  "achievements": {
+    "add": [
+      { "id": "killed-higher-level-mob", "name": "You've Killed a Mob a Higher Level Than Yourself!", "reward": "You've received a Bronze Adventurer Box!", "description": "Killed the Level-3 Goblin Engineer while himself a lower level." },
+      { "id": "podophilia", "name": "Podophilia!", "reward": "You've received a Gold Shoe Box!", "description": "Used his bare feet to crush and kill an opponent (leaping onto the Goblin Engineer)." },
+      { "id": "boom", "name": "Boom!", "reward": "You've received a Silver Goblin Box!", "description": "Caused a wall-shaking explosion within the dungeon (the Murder Dozer's boiler breach)." },
+      { "id": "level-up-baby", "name": "Level-Up, Baby!", "reward": "None. (Leveling up is your job.)", "description": "Earned enough experience to gain a level, reaching Level 2 and gaining 3 stat points." }
+    ]
+  },
+  "sources": [
+    { "field": "level", "quote": "Level Up! You are now level 2. Three stat points gained." },
+    { "field": "skills", "quote": "You’ve gained a skill level! Pugilism Level 4. The art of beating the shit out of your opponents with closed fists. Each level of this skill increases your bare-knuckle damage by 25%." },
+    { "field": "achievements", "quote": "New achievement! Podophilia! You’ve used your bare feet to crush and kill an opponent! ... Reward: You’ve received a Gold Shoe Box! New achievement! Boom! You’ve caused a wall-shaking explosion within the dungeon! ... Reward: You’ve received a Silver Goblin Box!" },
+    { "field": "misc.undistributedStatPoints", "quote": "I received three stat points every time I leveled up, but I couldn’t distribute them until I picked a race and class. And I couldn’t do that until I reached the third floor down." }
+  ]
+}

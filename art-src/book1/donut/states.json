@@ -1,0 +1,20 @@
+[
+  {
+    "id": "donut-01-cat",
+    "label": "Princess Donut",
+    "firstChapter": 3,
+    "outfit": "an ordinary pampered tortoiseshell Persian show cat with fluffy black, beige and white fur, no accessories"
+  },
+  {
+    "id": "donut-02-blob",
+    "label": "Transforming blob",
+    "firstChapter": 5,
+    "outfit": "a shapeless quivering mass of hairy jellied goo mid-transformation, with the word 'Waiting…' hovering above it"
+  },
+  {
+    "id": "donut-03-tiara",
+    "label": "Crowned Princess",
+    "firstChapter": 7,
+    "outfit": "the restored tortoiseshell Persian show cat now wearing a cat-sized jeweled tiara with smoky dark gems and a swirling deep-purple center stone"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "scene-apartment",
+    "label": "Seattle apartment",
+    "description": "A cramped, dark second-floor Seattle apartment at 2 AM: sparse mismatched furniture, moving boxes from a recent breakup, cold blue moonlight through a window"
+  },
+  {
+    "id": "scene-seattle-ruins",
+    "label": "Seattle ruins",
+    "description": "The ruins of a Seattle neighbourhood at night after an apocalyptic collapse: buildings flattened to rectangles of churned dirt and rubble, freezing mist, a single glowing blue World Dungeon entrance in the distance"
+  },
+  {
+    "id": "scene-floor1-tunnels",
+    "label": "Floor 1 tunnels",
+    "description": "Dim rough-hewn stone dungeon tunnels of Floor 1, flickering torchlight, damp walls, an ominous crawling-dungeon atmosphere, no characters"
+  },
+  {
+    "id": "scene-guild-hall",
+    "label": "Tutorial Guild Hall",
+    "description": "The interior of a shabby tutorial guild hall safe room on dungeon Floor 1: a worn wooden front desk and counter, mismatched lamps, cluttered shelves, warm lamplight, cosy but run-down"
+  }
+]

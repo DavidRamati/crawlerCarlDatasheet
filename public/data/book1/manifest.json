@@ -1,0 +1,18 @@
+{
+  "book": { "id": "book1", "title": "Dungeon Crawler Carl" },
+  "characters": [
+    { "id": "carl", "name": "Carl", "joinsPartyAtChapter": 1 },
+    { "id": "donut", "name": "Princess Donut", "joinsPartyAtChapter": 3 }
+  ],
+  "chapters": [
+    { "index": 1, "label": "Chapter 1 (Prologue)", "source": "OEBPS/Text/part0004.xhtml" },
+    { "index": 2, "label": "Chapter 2", "source": "OEBPS/Text/part0006.xhtml" },
+    { "index": 3, "label": "Chapter 3", "source": "OEBPS/Text/part0007.xhtml" },
+    { "index": 4, "label": "Chapter 4", "source": "OEBPS/Text/part0008.xhtml" },
+    { "index": 5, "label": "Chapter 5", "source": "OEBPS/Text/part0009.xhtml" },
+    { "index": 6, "label": "Chapter 6", "source": "OEBPS/Text/part0010.xhtml" },
+    { "index": 7, "label": "Chapter 7", "source": "OEBPS/Text/part0011.xhtml" },
+    { "index": 8, "label": "Chapter 8", "source": "OEBPS/Text/part0012.xhtml" }
+  ],
+  "schemaVersion": 1
+}

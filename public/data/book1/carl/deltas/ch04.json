@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 4,
+  "notes": "Mordecai grants Carl the Crawler Menu and walks him through it. His stats are shown for the first time (Str 6, Int 3, Con 5, Dex 5, Cha 4 — a typical human averages 3-5). He gets 3 stat points per level but cannot distribute them until he picks a race and class on Floor 3. The all-important Ratings menu (Views/Followers/Favorites/Patrons, all 0 until Floor 2) is explained, along with health, the skills list, and the magic menu — which grants a basic Level-1 healing spell and a 3-point mana pool (Int 3).",
+  "set": {
+    "stats": { "strength": 6, "intelligence": 3, "constitution": 5, "dexterity": 5, "charisma": 4 },
+    "resources": { "mana": { "cur": 3, "max": 3 } },
+    "misc": { "views": 0, "followers": 0, "favorites": 0, "patrons": 0 }
+  },
+  "skills": {
+    "add": [
+      { "id": "unarmed-combat", "name": "Unarmed Combat", "level": 3, "description": "Hand-to-hand fighting proficiency from Carl's Coast Guard training." },
+      { "id": "basic-electrical-repair", "name": "Basic Electrical Repair", "level": 6, "description": "Carl's highest starting skill, from his work as a marine electrical tech." },
+      { "id": "swimming", "name": "Swimming", "level": 4, "description": "General swimming ability." },
+      { "id": "basic-heal", "name": "Basic Heal (spell)", "level": 1, "description": "A Level-1 healing spell placed in hotlist slot 1; heals about 20% of health and costs 2 mana." }
+    ]
+  },
+  "sources": [
+    { "field": "stats", "quote": "Strength: 6  Intelligence: 3  Constitution: 5  Dexterity: 5  Charisma: 4" },
+    { "field": "stats", "quote": "According to Mordecai, I couldn’t directly adjust these stats. Not yet. I received three stat points every time I leveled up, but I couldn’t distribute them until I picked a race and class." },
+    { "field": "resources.mana", "quote": "I was given a simple healing spell and a pool of mana points ... Because my intelligence was only three, I only had three magic points. The healing spell cost two." },
+    { "field": "skills", "quote": "What was left was things like Unarmed Combat: 3, Basic Electrical Repair: 6, Swimming: 4. Nothing was over five other than Electrical Repair." },
+    { "field": "misc", "quote": "Ratings — Views: 0  Followers: 0  Favorites: 0  Patrons: 0" }
+  ]
+}

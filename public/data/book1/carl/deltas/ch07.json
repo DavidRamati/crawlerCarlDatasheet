@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 7,
+  "notes": "Donut emerges from the blob able to talk. The Enhanced Pet Biscuit's 'Enhanced Growth' buff kept her a cat but reset her stats (Str 11, Int 11, Con 2, Dex 8, Cha 25) and now grants +1 Str/Int and +2 Cha per level with no manual points. She's reclassified from pet to full crawler. Having the highest combined stats, she becomes party leader: she names the party 'The Royal Court of Princess Donut', titles herself 'Grand Champion Best in Dungeon', and demotes/promotes Carl to 'Royal Bodyguard'.",
+  "set": {
+    "identity": { "title": "Royal Bodyguard" },
+    "misc": { "party": "The Royal Court of Princess Donut" }
+  },
+  "contacts": {
+    "update": [
+      { "id": "donut", "relation": "Party leader (talking crawler cat)", "note": "Now a full crawler, not a pet. Stats Str 11 / Int 11 / Con 2 / Dex 8 / Cha 25 with the 'Enhanced Growth' buff (+1 Str/Int, +2 Cha per level, 4 points/level auto-assigned; Con locked at 2, Dex at 8). Learned Magic Missile from a Tome and received a Legendary Quadruped box holding the Enchanted Crown of the Sepsis Whore. Highest combined stats, so she leads the party; title 'Grand Champion Best in Dungeon'." }
+    ]
+  },
+  "sources": [
+    { "field": "contacts", "quote": "Strength: 11  Intelligence: 11  Constitution: 2  Dexterity: 8  Charisma: 25 ... Enhanced Growth. After an initial boost to four random stats, all additional levels will automatically grant +1 to Strength and Intelligence. Charisma will gain +2 per level." },
+    { "field": "identity.title", "quote": "Princess Donut has changed your title to Royal Bodyguard." },
+    { "field": "misc.party", "quote": "Princess Donut has named your party The Royal Court of Princess Donut. ... Princess Donut has changed her title to Grand Champion Best in Dungeon." }
+  ]
+}

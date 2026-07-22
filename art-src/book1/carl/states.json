@@ -1,0 +1,20 @@
+[
+  {
+    "id": "carl-01-boxers",
+    "label": "Boxers & Crocs",
+    "firstChapter": 1,
+    "outfit": "boxer shorts and a heavy black leather jacket, bare-legged, feet jammed into too-small bright pink Crocs, clutching a fluffy tortoiseshell cat, in a freezing night"
+  },
+  {
+    "id": "carl-02-barefoot",
+    "label": "Barefoot crawler",
+    "firstChapter": 2,
+    "outfit": "the same boxer shorts and black leather jacket, now completely barefoot, having lost the pink Crocs"
+  },
+  {
+    "id": "carl-03-cloak",
+    "label": "Dollar-store Batman",
+    "firstChapter": 6,
+    "outfit": "boxer shorts, barefoot with a toe ring, an enchanted trollskin shirt worn under the leather jacket, a hooded black nightgaunt cloak made of demon-wing skin with pointed ear-tips, and fingerless gloves; still no pants"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 5,
+  "notes": "Donut eats the Enhanced Pet Biscuit that Carl pulled from his Legendary Pet Box and instantly collapses into a quivering blob of goo — the start of a transformation. Because she doesn't teleport away, the game treats it as a non-negative result. New look: a shapeless, hairy, jellied mass with 'Waiting…' floating over it.",
+  "set": {
+    "appearance": { "stateId": "donut-02-blob" }
+  },
+  "effects": {
+    "add": [
+      {
+        "id": "transforming",
+        "name": "Transforming",
+        "kind": "neutral",
+        "description": "Reduced to a shapeless, quivering blob of flesh after eating an Enhanced Pet Biscuit. The game displays 'Waiting…' over her while she is changed; Mordecai expects it to resolve in about 5–10 minutes."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "field": "appearance",
+      "quote": "Splat! The moment the cat hit the ground, she was transformed into a wet mess of flesh. She splattered like a hunk of hairy, jellied water."
+    },
+    {
+      "field": "effects",
+      "quote": "Waiting… Waiting… appeared over the quivering, shaggy mass. … 'Transformation. Your creature is being changed somehow. It didn't teleport away, so it's not considered a negative result.'"
+    }
+  ]
+}

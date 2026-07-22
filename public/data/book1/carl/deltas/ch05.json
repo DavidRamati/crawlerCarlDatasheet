@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 5,
+  "notes": "Mordecai activates Carl's dimensional inventory (effectively unlimited storage) and gifts him a Standard Healing Potion. Carl reviews his missed combat notifications and then opens all 10 loot boxes at once (bronze through legendary), gaining gear, weapons, consumables, and the branded Goblin Pass. The final Legendary Pet Box yields an Enhanced Pet Biscuit — which Donut snatches and eats, splattering into a transforming blob.",
+  "inventory": {
+    "add": [
+      { "id": "potion-healing", "name": "Potion of Healing", "rarity": "common", "qty": 4, "effects": "Increases health by at least 50%. Does not cure poison or other health-seeping conditions.", "description": "Also called a Standard Healing Potion. One was a gift from Mordecai; the rest came from Bronze Adventurer Boxes. Add to the hotlist to drink instantly." },
+      { "id": "potion-mana", "name": "Potion of Mana", "rarity": "common", "qty": 1, "description": "A mana-restoring potion, from a Bronze Adventurer Box." },
+      { "id": "scroll-heal-critter", "name": "Scroll of Heal Critter", "rarity": "common", "qty": 1, "description": "Single-use scroll that heals a pet/critter (scrolls cast a spell once). From the Bronze Pet Box." },
+      { "id": "pet-biscuit", "name": "Pet Biscuit", "rarity": "common", "qty": 510, "description": "Feeds a pet-based class for a full day; pets find them delicious and will gobble them up. From the Bronze Pet Box (x10) and Legendary Pet Box (x500)." },
+      { "id": "crawler-biscuit", "name": "Crawler Biscuit", "rarity": "common", "qty": 100, "description": "Edible ration for crawlers. From the Silver Adventurer Box." },
+      { "id": "poison-antidote", "name": "Poison Antidote", "rarity": "common", "qty": 2, "description": "Cures the Poison condition. From the Silver Adventurer Box." },
+      { "id": "torch", "name": "Torch", "rarity": "common", "qty": 20, "description": "A light source. From the Silver Adventurer Box." },
+      { "id": "dynamite", "name": "Dynamite", "rarity": "common", "qty": 5, "description": "Throwable explosive. From the Silver Goblin Box." },
+      { "id": "lighter", "name": "Lighter", "rarity": "common", "qty": 1, "description": "A lighter from the Silver Goblin Box (giving Carl two, with his Zippo)." },
+      { "id": "common-fingerless-gloves", "name": "Common Fingerless Gloves", "rarity": "common", "qty": 1, "description": "Plain fingerless gloves that offer no armor protection. From a Bronze Adventurer Box." },
+      { "id": "toad-cudgel", "name": "Toad Cudgel", "rarity": "common", "qty": 1, "effects": "Big stick for bonking.", "description": "A 3/4-length club shaped by someone with only a vague idea of what a baseball bat is. From a Bronze Weapon Box." },
+      { "id": "poker", "name": "Poker", "rarity": "common", "qty": 1, "description": "A wrought-iron fireplace poker with a screw-on point; feels like it would bend and break on impact. From a Bronze Weapon Box." },
+      { "id": "nightgaunt-cloak", "name": "Enchanted Nightgaunt Cloak of Stoutness", "rarity": "rare", "effects": "+4 Constitution; resistant to poison and ice-based attacks; adds Anti-Piercing resistance to all worn armor.", "description": "A near-weightless hooded cloak of demon wing stretched over fingerbones. Makes the wearer look like a dollar-store Batman; nightgaunts dislike seeing it worn. From the Gold Apparel Box.", "statBonuses": { "constitution": 4 } },
+      { "id": "trollskin-shirt", "name": "Enchanted Trollskin Shirt of Pummeling", "rarity": "epic", "effects": "+7 to the Regeneration skill; negates all melee-based damage debuffs (Stun, Knockback, Disarm, Out-of-Breath).", "description": "One of the best under-armor tanking garments; cool to the touch and form-fitting. Would normally come from a Platinum or Legendary box. From the Gold Apparel Box.", "grants": [{ "skill": "regeneration", "name": "Regeneration", "level": 7 }] },
+      { "id": "toe-ring", "name": "Enchanted Toe Ring of the Splatter Skunk", "rarity": "uncommon", "effects": "+3 Strength; +3 to the Powerful Strike skill.", "description": "A toe ring — uncomfortable and a bit hippie-looking. From the Gold Shoe Box (Carl wanted shoes).", "statBonuses": { "strength": 3 }, "grants": [{ "skill": "powerful-strike", "name": "Powerful Strike", "level": 3 }] }
+    ]
+  },
+  "effects": {
+    "add": [
+      { "id": "goblin-pass", "name": "Goblin Pass", "kind": "neutral", "description": "A tattoo branded onto Carl's left forearm (shows through any armor). Removes automatic goblin hostility and allows free passage through goblin-controlled territory. Warning: natural goblin enemies, such as fairy-class creatures, deal 20% more damage against a Goblin Pass holder. From the Silver Goblin Box." }
+    ]
+  },
+  "contacts": {
+    "update": [
+      { "id": "donut", "note": "Ate the Enhanced Pet Biscuit straight from Carl's hand and instantly splattered into a shaggy 'Waiting…' blob — a transformation (not a negative teleport result). Mordecai expects it to resolve in a few minutes." }
+    ]
+  },
+  "sources": [
+    { "field": "inventory", "quote": "Standard Healing Potion. Increases your health by at least 50%. Doesn’t cure poison or other health-seeping conditions ... “Pick it up and place it in your inventory. A gift from me to you.”" },
+    { "field": "inventory", "quote": "Bronze Pet Box. (1/10) Scroll of Heal Critter. Pet Biscuit X 10. ... Silver Goblin Box (7/10) Dynamite X 5  Lighter  Goblin Pass ... Gold Apparel Box (8/10) Enchanted Nightgaunt Cloak of Stoutness. Enchanted Trollskin Shirt of Pummeling. ... Legendary Pet Box (10/10) Pet Biscuit X 500  Enhanced Pet Biscuit" },
+    { "field": "effects", "quote": "The Goblin Pass took the form of the same goblin-shaped skull ... it flew and smacked up against my left inner forearm ... I could feel it burning against my skin, like I was being branded." },
+    { "field": "contacts", "quote": "“Ow!” I cried as Donut leaped up and ate the treat right from my hand. Splat! The moment the cat hit the ground, she was transformed into a wet mess of flesh." }
+  ]
+}

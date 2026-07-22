@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 1,
+  "identity": {
+    "name": "Carl",
+    "race": null,
+    "class": null,
+    "title": null
+  },
+  "level": null,
+  "floor": null,
+  "location": "Seattle, Washington — Carl & Beatrice's second-floor apartment",
+  "stats": {
+    "strength": null,
+    "constitution": null,
+    "dexterity": null,
+    "intelligence": null,
+    "charisma": null
+  },
+  "resources": {
+    "hp": { "cur": null, "max": null },
+    "mana": { "cur": null, "max": null }
+  },
+  "equipment": {
+    "head": null,
+    "body": {
+      "id": "leather-jacket",
+      "name": "Leather Jacket",
+      "rarity": "common",
+      "description": "Carl's heavy civilian leather jacket, grabbed on his way out the door to fetch the cat. Its forearm later carries the branded Goblin Pass."
+    },
+    "underwear": {
+      "id": "boxers",
+      "name": "Boxer Shorts",
+      "rarity": "common",
+      "description": "The boxer shorts Carl was sleeping in when the world ended — his only real clothing for the entire dungeon. He never does find pants."
+    },
+    "hands": null,
+    "feet": {
+      "id": "pink-crocs",
+      "name": "Pink Crocs",
+      "rarity": "common",
+      "description": "Beatrice's pink Crocs sandals, a size too small; Carl jammed his bare feet into them to run outside after Donut."
+    },
+    "weapon": null,
+    "offhand": null,
+    "accessory": null
+  },
+  "inventory": [
+    {
+      "id": "marlboro-reds",
+      "name": "Marlboro Reds (half pack)",
+      "rarity": "common",
+      "description": "Half a pack of cigarettes in Carl's jacket pocket. He rations them once he realizes there may never be any more."
+    },
+    {
+      "id": "zippo",
+      "name": "Zippo Lighter",
+      "rarity": "common",
+      "description": "Carl's personal Zippo lighter, carried in his jacket."
+    }
+  ],
+  "skills": [],
+  "effects": [],
+  "achievements": [],
+  "contacts": [
+    {
+      "id": "donut",
+      "name": "Princess Donut",
+      "relation": "Cat / companion",
+      "note": "Beatrice's pedigreed tortoiseshell Persian show cat, 'Princess Donut the Queen Anne Chonk'. Carl is looking after her following his breakup with Beatrice."
+    }
+  ],
+  "appearance": {
+    "stateId": "carl-01-boxers"
+  },
+  "scene": "scene-apartment",
+  "misc": {}
+}

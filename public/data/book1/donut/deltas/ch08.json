@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "chapterIndex": 8,
+  "notes": "Donut and Carl leave the guild and crawl the Floor 1 tunnels, fighting from Carl's shoulder with Magic Missile. She lands the party's first big kill (the Bad Llama, dealing 71% of the damage), levels up to 2, and raises Magic Missile to level 3. The book shows her Intelligence as 17 = base 12 (11 emergence + 1 Enhanced-Growth level-up) plus the Crown's +5, giving her 17 mana. (Her Strength and Charisma also rose on level-up — +1 Str and +2 Cha — but the book only states the Intelligence total, so those base values are left unchanged here.) The chapter ends with the party reaching a Floor 1 safe room.",
+  "set": {
+    "level": 2,
+    "location": "Safe Room (Floor 1)",
+    "stats": { "intelligence": 12 },
+    "resources": { "mana": { "cur": 17, "max": 17 } }
+  },
+  "skills": {
+    "update": [ { "id": "magic-missile", "level": 3 } ]
+  },
+  "achievements": {
+    "add": [
+      {
+        "id": "cast-first-spell",
+        "name": "Cast your first spell",
+        "description": "Donut cast Magic Missile for the first time during the Bad Llama fight."
+      },
+      {
+        "id": "first-kill",
+        "name": "Killed a mob",
+        "description": "Donut's first mob kill — the Level 3 Bad Llama, to which she dealt 71% of the damage."
+      },
+      {
+        "id": "killed-higher-level",
+        "name": "Killed a mob a higher level than yourself",
+        "description": "Donut (Level 1, then 2) helped kill the higher-level (Level 3) Bad Llama."
+      }
+    ]
+  },
+  "sources": [
+    { "field": "level", "quote": "Donut had leveled up to two after the llama battle." },
+    {
+      "field": "stats",
+      "quote": "I could see she currently had a 17 in intelligence, giving her 17 mana points. Each zap of her spell cost five mana points."
+    },
+    { "field": "skills", "quote": "Her skill level in the spell went up to three." },
+    {
+      "field": "location",
+      "quote": "I saw the safe room glowing green on the edge of the minimap… We entered the safe room."
+    },
+    {
+      "field": "achievements",
+      "quote": "Donut got the same, plus a couple additional achievements for casting her first spell and finally killing something, along with killing a mob higher level than herself."
+    }
+  ]
+}
