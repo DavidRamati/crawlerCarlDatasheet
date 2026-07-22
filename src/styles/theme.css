@@ -425,6 +425,11 @@ select,
   font-size: 13.5px;
   color: var(--ink);
 }
+.slot .sitem .item-icon {
+  width: 44px;
+  height: 44px;
+  margin-top: 4px;
+}
 .slot.filled {
   cursor: help;
 }
@@ -480,6 +485,64 @@ select,
 .granted {
   color: var(--accent-2);
   font-size: 11px;
+}
+
+/* inventory as an icon grid — names/details live in the hover tooltip */
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-content: flex-start;
+}
+.item-grid .show-all {
+  grid-column: 1 / -1;
+  margin-top: 2px;
+}
+.item-grid .empty {
+  grid-column: 1 / -1;
+}
+.item-chip {
+  position: relative;
+  display: block;
+  width: 100%;
+  cursor: help;
+}
+.item-chip .item-icon {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+.item-chip:hover .item-icon {
+  border-color: var(--accent-2);
+}
+.item-chip.added .item-icon {
+  outline: 2px solid var(--good);
+  outline-offset: 1px;
+}
+.chip-rarity {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+.chip-qty {
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  min-width: 15px;
+  padding: 0 3px;
+  border-radius: 8px;
+  background: var(--ink);
+  color: var(--band-ink);
+  border: 1px solid var(--edge-dark);
+  font-size: 10.5px;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: center;
 }
 
 /* contacts */

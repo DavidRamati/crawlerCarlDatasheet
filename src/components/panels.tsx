@@ -7,7 +7,7 @@ import {
   derivedSkills,
   effectiveStats,
 } from "../data/derive";
-import { ItemRow, WithItemTip } from "./items";
+import { ItemChip, ItemIcon, WithItemTip } from "./items";
 import { OverflowPanel } from "./OverflowPanel";
 import { useTooltip } from "./Tooltip";
 
@@ -187,7 +187,9 @@ export function EquipmentPanel(p: PanelProps) {
             return (
               <WithItemTip key={slot} item={item} className="slot filled">
                 <div className="slabel">{label}</div>
-                <div className="sitem">{item.name}</div>
+                <div className="sitem">
+                  <ItemIcon item={item} />
+                </div>
               </WithItemTip>
             );
           })}
@@ -206,7 +208,9 @@ export function InventoryPanel(p: PanelProps) {
       items={p.snap.inventory}
       keyOf={(it) => it.id}
       emptyText="Empty."
-      render={(it) => <ItemRow item={it} highlight={added(p, "inventory", it.id)} />}
+      bodyClassName="item-grid"
+      max={16}
+      render={(it) => <ItemChip item={it} highlight={added(p, "inventory", it.id)} />}
     />
   );
 }

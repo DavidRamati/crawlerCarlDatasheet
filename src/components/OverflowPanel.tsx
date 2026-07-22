@@ -5,10 +5,12 @@ export function Modal({
   title,
   onClose,
   children,
+  bodyClassName,
 }: {
   title: string;
   onClose: () => void;
   children: ReactNode;
+  bodyClassName?: string;
 }) {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
@@ -25,7 +27,9 @@ export function Modal({
             ✕
           </button>
         </div>
-        <div className="modal-body">{children}</div>
+        <div className={`modal-body${bodyClassName ? ` ${bodyClassName}` : ""}`}>
+          {children}
+        </div>
       </div>
     </div>
   );
@@ -38,6 +42,8 @@ interface OverflowPanelProps<T> {
   render: (t: T, mode: "compact" | "full") => ReactNode;
   max?: number;
   emptyText?: string;
+  /** Extra class for the body/modal containers, e.g. to lay items out in a grid. */
+  bodyClassName?: string;
 }
 
 /**
@@ -53,6 +59,7 @@ export function OverflowPanel<T>({
   render,
   max = 10,
   emptyText = "None.",
+  bodyClassName,
 }: OverflowPanelProps<T>) {
   const [open, setOpen] = useState(false);
   const recent = [...items].reverse();
@@ -69,7 +76,7 @@ export function OverflowPanel<T>({
         {title}
         {items.length > 0 && <span className="count">{items.length}</span>}
       </h3>
-      <div className="body">
+      <div className={`body${bodyClassName ? ` ${bodyClassName}` : ""}`}>
         {items.length === 0 ? (
           <p className="empty">{emptyText}</p>
         ) : (
@@ -86,7 +93,11 @@ export function OverflowPanel<T>({
         )}
       </div>
       {open && (
-        <Modal title={`${title} (${items.length})`} onClose={() => setOpen(false)}>
+        <Modal
+          title={`${title} (${items.length})`}
+          onClose={() => setOpen(false)}
+          bodyClassName={bodyClassName}
+        >
           {recent.map((it) => (
             <Fragment key={keyOf(it)}>{render(it, "full")}</Fragment>
           ))}

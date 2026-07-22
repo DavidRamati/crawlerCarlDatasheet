@@ -105,3 +105,20 @@ export function ItemRow({
     </WithItemTip>
   );
 }
+
+/** Icon-only tile; the name/details surface in the tooltip on hover. */
+export function ItemChip({
+  item,
+  highlight,
+}: {
+  item: Item;
+  highlight?: boolean;
+}) {
+  return (
+    <WithItemTip item={item} className={`item-chip${highlight ? " added" : ""}`}>
+      <span className="chip-rarity" style={{ background: rarityColor(item.rarity) }} />
+      <ItemIcon item={item} />
+      {item.qty && item.qty > 1 && <span className="chip-qty">×{item.qty}</span>}
+    </WithItemTip>
+  );
+}
